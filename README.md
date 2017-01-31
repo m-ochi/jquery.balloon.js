@@ -1,4 +1,5 @@
 # [jquery.balloon.js](//urin.github.io/jquery.balloon.js/)
+バルーンが１度しか出ないときがあるので，少し修正したもの
 A jQuery plugin to add balloon tips to elements User-friendly, fine-tunable and without css and images
 
 [Demos](//urin.github.io/jquery.balloon.js/)

@@ -207,7 +207,7 @@
       clearTimeout($balloon.data('minLifetime'));
       const contents = $.isFunction(options.contents) ? options.contents.apply(this)
         : (options.contents || $target.attr('title') || $target.attr('alt'));
-      $target.removeAttr('title');
+//      $target.removeAttr('title');
       if(!options.url && contents === '' || contents == null) { return; }
       if(!$.isFunction(options.contents)) { options.contents = contents; }
       if(options.url) {
